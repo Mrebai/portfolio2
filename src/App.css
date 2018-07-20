@@ -1,28 +1,119 @@
+body{
+  min-height: 100%;
+  overflow-x: hidden;
+
+}
+
+.col-md-3{
+  background-image: url("/bg5.jpg");
+  margin: 0;
+  padding: 0;
+}
+.myImage{
+  width: 100%;
+  height: auto;
+}
+.col-md-9{
+  background-color: #e3f9fc;
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
+  min-height: 100%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.portfolioSlide{
+  background-size: cover;
+  min-height: 100vh;
+
+
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+.menu{
+  min-height: 100vh;
+  background-color: rgba(0,0,0,.7);
+  background-size: cover;
+}
+
+.nextPrev{
+  width: 100%;
+  position: absolute;
+  padding: 0;
+ bottom: 0;
+  display: block;
+}
+
+.nextPrev button{
+  border-radius: 0;
+
+  color: white;
+  width: 50%;
+  font-weight: bold;
+}
+
+.name{
   color: white;
 }
+.role{
+  color: #c4c4c4;
+  font-size: small;
+}
+.icon{
 
-.App-title {
-  font-size: 1.5em;
+  font-size:2rem;
+
+}
+.contactContainer{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.contactContainer p {
+  color: #e0e0e0;
+  text-align: left;
+  margin-left: 2rem;
+  font-size: 1rem;
+
 }
 
-.App-intro {
-  font-size: large;
+.page1Container{
+  color: white;
+  text-align: left;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.sectionTitle{
+  margin-top: 40px;
+  min-width: 40%;
+  height: 60px;
+  display: table;
+  color: black;
+}
+.underline{
+  margin-top: -10px;
+  height: 5px;
+  border-radius: 3px;
+  width: 100px;
+  background-color: #17A2B8;
+}
+.sectionTitle h2{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.eduCardHeader{
+  color: #3a3a3a;
+}
+
+.edCardTitle{
+  text-align: left;
+  color: #212121;
+}
+.edCardText{
+  color: #4c4c4c;
+  text-align: left;
+}
+
+.card-footer{
+  font-size: .9rem;
+  text-align: right;
 }
