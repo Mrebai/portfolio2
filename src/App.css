@@ -54,9 +54,11 @@ body{
 
 .name{
   color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 .role{
-  color: #c4c4c4;
+  color: #767676;
   font-size: small;
 }
 .icon{
@@ -77,7 +79,7 @@ body{
 }
 
 .page1Container{
-  color: white;
+  color: #6a6a6a;
   text-align: left;
 }
 
@@ -157,4 +159,13 @@ body{
 .gitBtn{
   margin: auto;
   border-radius: 0;
+}
+
+.pfTitle{
+  color: #4a4a4a;
+  font-weight: bold;
+}
+
+.pfText{
+  color: #6a6a6a  ;
 }
