@@ -10,7 +10,7 @@ class EmptyFirstPage extends Component {
     render() {
         let RadarChart2 = require("react-chartjs").Radar;
         let data2 = {
-            labels: [ "French" ,"ReactJs", "JavaScript", "Bootstrap", "Apollo", "MongoDB", "English"],
+            labels: [ "French" ,"ReactJs", "JavaScript", "Bootstrap", "Apollo", "MongoDB","Arabic", "English"],
             datasets: [
 
                 {
@@ -21,7 +21,7 @@ class EmptyFirstPage extends Component {
                     pointStrokeColor: "#fff",
                     pointHighlightFill: "#fff",
                     pointHighlightStroke: "rgba(151,187,205,0)",
-                    data: [85, 70, 90, 70, 65, 85, 65]
+                    data: [85, 70, 90, 70, 65, 85,100, 65]
                 }
             ]
         };
