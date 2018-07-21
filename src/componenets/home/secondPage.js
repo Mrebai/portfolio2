@@ -54,7 +54,7 @@ class Portfolio extends Component {
                                 <div className="card-img-top cardImage3"></div>
                                 <div className="card-body ">
                                     <h5 className="card-title pfTitle">Image Hunter</h5>
-                                    <p  style={{fontFamily: "'Source Sans Pro', sans-serif"}} className="card-text pfText text-justify">Made for a professional photographer, this website allows the admin to add gallery items, videos or show stream in the website. The client can also reserve a date online and contact the admin directly (Still in development. </p>
+                                    <p  style={{fontFamily: "'Source Sans Pro', sans-serif"}} className="card-text pfText text-justify">Made for a professional photographer, this website allows the admin to add gallery items, videos or show stream in the website. The client can also reserve a date online and contact the admin directly (Still in development). </p>
                                     <a  style={{fontFamily: "'Source Sans Pro', sans-serif"}} target="_blank" rel="noopener noreferrer"  href="https://github.com/Mrebai/chasseur" className="btn btn-info gitBtn"> <i class="fab fa-github"></i> Go to repository </a>
                                 </div>
                             </div>
