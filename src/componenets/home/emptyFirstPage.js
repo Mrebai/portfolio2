@@ -21,7 +21,7 @@ class EmptyFirstPage extends Component {
                     pointStrokeColor: "#fff",
                     pointHighlightFill: "#fff",
                     pointHighlightStroke: "rgba(151,187,205,0)",
-                    data: [85, 70, 90, 70, 65, 85,100, 65]
+                    data: [85, 70, 90, 70, 65, 85,95, 65]
                 }
             ]
         };
