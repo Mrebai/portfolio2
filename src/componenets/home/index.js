@@ -18,7 +18,7 @@ class Page1 extends Component {
                     </div>
                     <div className="card-body">
                         <h5 className="card-title edCardTitle text-justify">Bachelor degree in electronics, electrotechnics and automatic</h5>
-                        <p className="card-text edCardText container text-justify"  style={{fontFamily: "'Source Sans Pro', sans-serif"}}> End of year project :Text encryption algorithm using embedded C. The program allows the user to securely encrypt/decrypt any text or txt file using  asymmetric cryptography with minimal increase in file size.  </p>
+                        <p className="card-text edCardText container text-justify"  style={{fontFamily: "'Source Sans Pro', sans-serif"}}> End of year project: Text encryption algorithm using embedded C. The program allows the user to securely encrypt/decrypt any text or txt file using  asymmetric cryptography with minimal increase in file size.  </p>
 
                     </div>
                     <div  style={{fontFamily: "'Source Sans Pro', sans-serif"}} className="card-footer edCardFooter text-muted">
