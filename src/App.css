@@ -1,7 +1,7 @@
 body{
   min-height: 100%;
   overflow-x: hidden;
-
+  font-family: 'Slabo 27px', serif;
 }
 
 .col-md-3{
@@ -14,7 +14,7 @@ body{
   height: auto;
 }
 .col-md-9{
-  background-color: #e3f9fc;
+  background-color: #f9fcfc;
   margin: 0;
   padding: 0;
 }
@@ -116,4 +116,45 @@ body{
 .card-footer{
   font-size: .9rem;
   text-align: right;
+}
+
+.card{
+  border-radius: 0;
+}
+
+.chartContainer{
+  text-align: center;
+}
+
+.cardImage{
+  min-height: 300px;
+  background-image: url("/website1.png");
+  background-size: cover;
+}
+.cardImage2{
+  min-height: 300px;
+  background-image: url("/website2.png");
+  background-size: cover;
+
+}
+
+.cardImage3{
+  min-height: 300px;
+  background-image: url("/website3.png");
+  background-size: cover;
+
+}
+.portfolioCard{
+  color: #212121;
+
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #14112C;
+}
+
+.gitBtn{
+  margin: auto;
+  border-radius: 0;
 }

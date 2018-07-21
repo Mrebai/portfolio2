@@ -18,24 +18,24 @@ class Page1 extends Component {
                     </div>
                     <div className="card-body">
                         <h5 className="card-title edCardTitle">Bachelor degree in electronics, electrotechnics and automatic</h5>
-                        <p className="card-text edCardText container"> End of year project :Text encryption algorithm using embedded C. The program allows securely encrypt/decrypt any text or txt file using  asymmetric cryptography without a significant change in file size.  </p>
+                        <p className="card-text edCardText container"  style={{fontFamily: "'Source Sans Pro', sans-serif"}}> End of year project :Text encryption algorithm using embedded C. The program allows securely encrypt/decrypt any text or txt file using  asymmetric cryptography without a significant change in file size.  </p>
 
                     </div>
-                    <div className="card-footer edCardFooter text-muted">
+                    <div  style={{fontFamily: "'Source Sans Pro', sans-serif"}} className="card-footer edCardFooter text-muted">
                          FST Manar University
                     </div>
                 </div>
 
                 <div className="card text-center mt-4">
                     <div className="card-header eduCardHeader">
-                        2012 - 2015
+                        2015 - 2018
                     </div>
                     <div className="card-body">
-                        <h5 className="card-title edCardTitle">Bachelor degree in electronics, electrotechnics and automatic</h5>
-                        <p className="card-text edCardText container"> End of year project :Text encryption algorithm using embedded C. The program allows securely encrypt/decrypt any text or txt file using  asymmetric cryptography without a significant change in file size.  </p>
+                        <h5 className="card-title edCardTitle">Master's degree in Electronics, Electrical Engineering and Automation. </h5>
+                        <p className="card-text edCardText container"  style={{fontFamily: "'Source Sans Pro', sans-serif"}}> Master's thesis: Embedded system for monitoring and tracking elderly and alzheimer’s patients in real time.   </p>
 
                     </div>
-                    <div className="card-footer edCardFooter text-muted">
+                    <div  style={{fontFamily: "'Source Sans Pro', sans-serif"}} className="card-footer edCardFooter text-muted">
                         FST Manar University
                     </div>
                 </div>
