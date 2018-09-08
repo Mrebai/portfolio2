@@ -149,8 +149,14 @@ body{
 .portfolioCard{
   color: #212121;
 
-}
 
+
+
+}
+.chartContain{
+  height: auto;
+  width: 80%;
+}
 .slick-prev:before,
 .slick-next:before {
   color: #14112C;

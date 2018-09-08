@@ -94,7 +94,7 @@ class FirstPage extends Component {
                 <div className="sectionTitle .bg-info"> <h2> <i className=" text-info fas fa-code"></i>  Skills</h2></div>
                 <div className="underline"></div>
                 <div className="row">
-                    <div className="col">
+                    <div className="col-12 chartContain">
                         <div className='chartContainer '>
                             <RadarChart data={data} options={options}  width="500px" height="500px"/>
                         </div>
