@@ -45,7 +45,7 @@ class App extends Component {
                 <div className="col-md-3 menu">
                     <img className='myImage' src="/photo.png" alt=""/>
                     <h1 className='lead name mt-2' > Ala Edine Mrebai</h1>
-                    <p className=' role' style={{fontFamily: "'Source Sans Pro', sans-serif"}}>Full stack Node, React, Mongo, Apollo developer</p>
+                    <p className=' role' style={{fontFamily: "'Source Sans Pro', sans-serif"}}>Full stack Node, React, Mongo and Apollo developer</p>
                     <div className='contactContainer'>
                         <p> <i  className=" text-info mr-4 icon fas fa-phone"></i> +216 95 355 010    </p>
                         <p style={{fontFamily: "'Source Sans Pro', sans-serif"}}> <i class=" text-info mr-4 fas icon fa-envelope"></i > aladinmrebai@gmail.com</p>

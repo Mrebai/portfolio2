@@ -31,7 +31,7 @@ class Page1 extends Component {
                         2015 - 2018
                     </div>
                     <div className="card-body">
-                        <h5 className="card-title edCardTitle text-justify">Master's degree in Electronics, Electrical Engineering and Automation. </h5>
+                        <h5 className="card-title edCardTitle text-justify">Master's degree in electronics, electrical engineering and automation. </h5>
                         <p className="card-text edCardText container text-justify"  style={{fontFamily: "'Source Sans Pro', sans-serif"}}> Master's thesis: Embedded system for monitoring and tracking elderly and alzheimer’s patients in real time.   </p>
 
                     </div>

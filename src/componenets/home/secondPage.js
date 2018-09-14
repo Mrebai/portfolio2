@@ -45,7 +45,7 @@ class Portfolio extends Component {
                                 <div className="card-img-top cardImage2"></div>
                                 <div className="card-body">
                                     <h5 className="card-title pfTitle">Avenue Fashion</h5>
-                                    <p  style={{fontFamily: "'Source Sans Pro', sans-serif"}} className="card-text pfText text-justify">A website for clothes shop based on meteor with an interface to add,delete and modify clothes.</p>
+                                    <p  style={{fontFamily: "'Source Sans Pro', sans-serif"}} className="card-text pfText text-justify">A website that allows a shop owner to sell products online. It's based on meteor with a custom interface to add,delete and modify items in the apollo server.</p>
                                     <a   style={{fontFamily: "'Source Sans Pro', sans-serif"}} target="_blank" rel="noopener noreferrer"  href="https://github.com/Mrebai/AF"  className="btn btn-info gitBtn"> <i class="fab fa-github"></i> Go to repository </a>
                                 </div>
                             </div>
