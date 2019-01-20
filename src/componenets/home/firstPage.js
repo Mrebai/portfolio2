@@ -26,7 +26,7 @@ class FirstPage extends Component {
                     pointStrokeColor: "#fff",
                     pointHighlightFill: "#fff",
                     pointHighlightStroke: "rgba(151,187,205,1)",
-                    data: [85, 70, 90, 70, 65,95, 85, 65]
+                    data: [85, 80, 90, 70, 65,95, 85, 65]
                 }
             ]
         };
