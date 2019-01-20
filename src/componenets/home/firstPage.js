@@ -96,7 +96,7 @@ class FirstPage extends Component {
                 <div className="row">
                     <div className="col-12 chartContain">
                         <div className='chartContainer '>
-                            <RadarChart data={data} options={options}  width="360" height="360"/>
+                            <RadarChart data={data} options={options}  width="360px" height="360px"/>
                         </div>
                     </div>
                 </div>

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Slider from 'react-slick'
 import Page1 from './componenets/home'
+import Experience from './componenets/home/experience'
 import Fiestpage from './componenets/home/firstPage'
 import EmptyFiestpage from './componenets/home/emptyFirstPage'
 import Portfolio from  './componenets/home/secondPage'
@@ -22,7 +23,7 @@ class App extends Component {
       const
           settings =  {
               fade:true,
-              lazyLoad:false,
+              lazyLoad:true,
               arrows:false,
           autoplay: false,
 
@@ -70,13 +71,21 @@ class App extends Component {
 
                         </div>
 
-                        <div key={1} id='slide2' className='portfolioSlide'  >
+                        <div key={2} id='slide2' className='portfolioSlide'  >
                             {
                                 (this.state.currentSlide === 1 &&  this.state.currentSlide2 !== 2   )?       <Fiestpage slide ={this.state.currentSlide2}/>: <EmptyFiestpage/>
                             }
                         </div>
 
-                        <div key={2} id='slide3' className='portfolioSlide'  >
+
+                        <div key={1} id='slide3' className='portfolioSlide'  >
+                            <Experience/>
+
+
+                        </div>
+
+
+                        <div key={3} id='slide4' className='portfolioSlide'  >
                             <Portfolio/>
                         </div>
 
