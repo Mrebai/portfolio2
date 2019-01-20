@@ -9,7 +9,7 @@ class Experience extends Component {
     render() {
         return (
             <div className=" container page1Container">
-                <div className="sectionTitle .bg-info"> <h2> <i className=" text-info fas fa-graduation-cap"></i> Experience </h2></div>
+                <div className="sectionTitle .bg-info"> <h2> <i className="text-info fas fa-user-tie"></i>  Experience </h2></div>
                 <div className="underline"></div>
 
                 <div className="card text-center mt-4">
